@@ -5,21 +5,21 @@
  */
 $value = -8;
 // TODO Votre code ici.
-
+echo  abs($value),"<br>";
 
 /**
  * 2. Affichez dans un <p> la valeur de 5.64 arrondit au nombre supérieur.
  */
 $value = 5.64;
 // TODO Votre code ici.
-
+ echo (round(5.64)),"<br>";
 
 /**
  * 3. Affichez dans un <p> la valeur de 5.34 arrondit au nombre inférieur.
  */
 $value = 5.34;
 // TODO Votre code ici.
-
+echo (round(5.34)),"<br>";
 
 /**
  * 4. Affichez dans un <p> la valeur maximum du tableau $max, et la valeur minimum du tableau $min.
@@ -27,7 +27,8 @@ $value = 5.34;
 $max = [5, 10, 12, 8, 7, 6, 54, 39, 76, 63, 84, 2, 21];
 $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
 // TODO Votre code ici.
-
+echo max($max );
+echo min($min);
 
 /**
  * 5. Affichez dans un <p> la valeur de PI * 2 ( avec une fonction mathématique pour PI ).
@@ -41,6 +42,7 @@ $min = [5, 41, 65, 4, 3, 65, 2, 65, 74, 51, 23, 39, 42];
  */
 $value = 5.42;
 // TODO Votre code ici.
+echo (round($value));
 
 
 
